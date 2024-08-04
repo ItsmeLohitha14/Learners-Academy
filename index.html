@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/259dab2acc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+                <img src="images/logo.jpg">
+            </a>
+
+            <ul class="links">
+                <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-user-tie"></i> About</a></li>
+            </ul>
+
+            <button class="login-btn">LOG IN/SIGN UP</button>
+
+        </nav>
+    </header>
+
+
+    <div class="blur-bg-overlay">
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded"><i class="fa-solid fa-close"></i></span>
+<!--------------------------------        LOGIN   -------------------------->
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+
+            <div class="form-content">
+                <h2>LOGIN</h2>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label><i class="fa-solid fa-envelope"> </i>Email</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label><i class="fa-solid fa-lock"></i> Password</label>
+                    </div>
+
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+
+                <div class="bottom-link">Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+ 
+<!--------------------------   SIGNUP   ------------------------------>        
+        <div class="form-box signup">
+
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become a part of our Academy, please sign up using your personal information.</p>
+            </div>
+
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="email" required>
+                        <label><i class="fa-solid fa-envelope"></i> Enter your email</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label><i class="fa-solid fa-lock"></i> Create password</label>
+                    </div>
+                    <br>
+
+                    <label for="usertype" class="usertype-heading">User Type
+                    <select id="usertype" name="usertype">
+                        <option value="Student">Student</option>
+                        <option value="Instructor">Instructor</option>
+                        <option value="Admin">Admin</option>      
+                    </select>
+                    </label>
+
+
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+
+
+<!-- home section starts-->
+    <section class="home" id="home"></section>
+
+
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+    <h1 class="heading">About Us</h1>
+    <div class="container">
+
+        <div class="image-container">
+            <img src="images/ab-1.jpg" alt="" class="image">
+            <div class="controls">
+                <span class="control-btn" data-src="images/ab-1.jpg"></span>
+                <span class="control-btn" data-src="images/ab-2.jpg"></span>
+                <span class="control-btn" data-src="images/ab-3.jpg"></span>
+            </div>
+        </div>
+
+        <div class="content">
+            <span>Welcome To Our Academy</span>
+            <p> Focusing on education in design, business, and technology, Learners academy has a comprehensive online education experience.
+                 The platform offers a mix of full- and part-time online classes, plus workshops, free training, and coding events.
+                 <br>
+                Some of the more advanced classes have a cost, but the service offers many free online learning paths designed to give you the groundwork to earn a diploma elsewhere.</p>    
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- teacher section starts -->
+    <section class="teacher" id="teacher">
+        <h1 class="heading">Our Expert Teachers</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/teacher-3.png" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Lil</h3>
+                    <span>Instructor</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/teacher-2.png" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Marie</h3>
+                    <span>Instructor</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/teacher-3.png" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Krish</h3>
+                    <span>Instructor</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/teacher-4.png" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sezzi</h3>
+                    <span>Instructor</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<!------------  courses section starts ------------>
+    <section class="courses" id="courses">
+
+        <h1 class="heading">our famous courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-1.jpg" alt="">
+                    <h3>Basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$19.99</h4>
+                    <p>updated 25/09/2023</p>
+                    <h3>Machine Learning</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(880)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i>15h</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-2.jpg" alt="">
+                    <h3>Advanced</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>Generative AI</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(1000)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 20 lessons</span>
+                        <span><i class="far fa-clock"></i>20h</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-4.jpg" alt="">
+                    <h3>Advanced</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/03/2024</p>
+                    <h3>Full Stack</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(1000)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 12 lessons</span>
+                        <span><i class="far fa-clock"></i>12h</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-6.jpg" alt="">
+                    <h3>Medium</h3>
+                </div>
+                <div class="content">
+                    <h4>$30.00</h4>
+                    <p>updated 01/01/2024</p>
+                    <h3>Prompt Engineering</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                        <span>(1000)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    
+<!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <form action="">
+                
+                <input type="text" placeholder="Name" class="box">
+                <input type="email" placeholder="Email" class="box">
+                <input type="number" placeholder="Phone number" class="box">
+                <textarea placeholder="Message" class="box" cols="30" rows="10"></textarea>
+                <a href="#" class="btn">
+                    <span class="text text-1">send message</span>
+                    <span class="text text-2" aria-hidden="true">send message</span>
+                </a>
+            </form>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
